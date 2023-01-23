@@ -2,7 +2,7 @@
 
 const FOREGROUND_COLOR = 'white';
 const DEFAULT_TEXT_COLOR = '#2d4150';
-const SECONDARY_TEXT_COLOR = '#00BBF2';
+const SECONDARY_TEXT_COLOR = '#EA611C';
 const AGENDA_TEXT_COLOR = '#7a92a5';
 const AGENDA_BG_COLOR = '#f2F4f5';
 const DISABLED_COLOR = '#d9e1e8';
@@ -33,8 +33,8 @@ export const textSectionTitleColor = '#b6c1cd';
 export const textSectionTitleDisabledColor = DISABLED_COLOR;
 export const selectedDayBackgroundColor = SECONDARY_TEXT_COLOR;
 export const selectedDayTextColor = FOREGROUND_COLOR;
-export const todayBackgroundColor = undefined;
-export const todayTextColor = SECONDARY_TEXT_COLOR;
+export const todayBackgroundColor = SECONDARY_TEXT_COLOR;
+export const todayTextColor = FOREGROUND_COLOR;
 export const dayTextColor = DEFAULT_TEXT_COLOR;
 export const textDisabledColor = DISABLED_COLOR;
 export const textInactiveColor = DISABLED_COLOR;
