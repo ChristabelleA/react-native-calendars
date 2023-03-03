@@ -1,6 +1,6 @@
 // default values for app style (see all options for theme type in types.ts)
 
-const FOREGROUND_COLOR = 'white';
+const FOREGROUND_COLOR = '#ffffff00';
 const DEFAULT_TEXT_COLOR = '#2d4150';
 const SECONDARY_TEXT_COLOR = '#EA611C';
 const AGENDA_TEXT_COLOR = '#7a92a5';
