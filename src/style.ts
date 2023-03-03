@@ -1,6 +1,6 @@
 // default values for app style (see all options for theme type in types.ts)
 
-const FOREGROUND_COLOR = '#ffffff00';
+const FOREGROUND_COLOR = 'white';
 const DEFAULT_TEXT_COLOR = '#2d4150';
 const SECONDARY_TEXT_COLOR = '#EA611C';
 const AGENDA_TEXT_COLOR = '#7a92a5';
@@ -27,7 +27,7 @@ export const textDayStyle = undefined;
 export const dotStyle = undefined;
 export const arrowStyle = undefined;
 
-export const calendarBackground = FOREGROUND_COLOR;
+export const calendarBackground = '#ffffff00';
 
 export const textSectionTitleColor = '#b6c1cd';
 export const textSectionTitleDisabledColor = DISABLED_COLOR;
