@@ -150,6 +150,9 @@ export default class Agenda extends Component<AgendaProps, State> {
     } else if (!prevProps.items) {
       this.loadReservations(this.props);
     }
+    if(prevProps.calendarWidth != this.viewWidth){
+      this.renderCalendarList()
+    }
   }
 
   static getDerivedStateFromProps(nextProps: AgendaProps) {
